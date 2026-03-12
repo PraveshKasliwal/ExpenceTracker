@@ -19,7 +19,7 @@ A React + Vite expense tracker with live INR currency conversion via Frankfurter
 
 ## 🔧 Run Locally
 ```bash
-git clone https://github.com/yourusername/spendwise.git
+git clone https://github.com/PraveshKasliwal/ExpenceTracker.git
 cd spendwise
 npm install
 npm run dev
