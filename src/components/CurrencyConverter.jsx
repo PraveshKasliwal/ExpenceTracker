@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { MdCurrencyExchange } from "react-icons/md";
 import './CurrencyConverter.css';
 
 const currencies = [
@@ -48,7 +47,7 @@ const CurrencyConverter = ({ totalAmount }) => {
 
     return (
         <div className="currency-converter">
-            <h2 className="converter-title"><MdCurrencyExchange /> Convert Total</h2>
+            <h2 className="converter-title">💱 Convert Total</h2>
             <p className="converter-subtitle">Live exchange rates</p>
 
             <select

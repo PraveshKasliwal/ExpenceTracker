@@ -1,5 +1,4 @@
 import './ExpenseList.css';
-import { MdDelete } from "react-icons/md";
 
 const categoryColors = {
     Food: '#FF6B35',
@@ -58,7 +57,7 @@ const ExpenseList = ({ expenses, onDeleteExpense }) => {
                                     onClick={() => onDeleteExpense(expense.id)}
                                     aria-label="Delete expense"
                                 >
-                                    <MdDelete />
+                                    🗑️
                                 </button>
                             </div>
                         </div>
