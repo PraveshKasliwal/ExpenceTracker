@@ -1,0 +1,130 @@
+.currency-converter {
+    padding: 28px;
+    border-top: 1px solid var(--dark-2);
+}
+
+.converter-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-light);
+    margin: 0 0 4px 0;
+}
+
+.converter-subtitle {
+    font-size: 12px;
+    color: var(--primary);
+    margin: 0 0 16px 0;
+    font-weight: 500;
+}
+
+.currency-select {
+    width: 100%;
+    background-color: var(--dark-2);
+    color: var(--text-light);
+    border: 1.5px solid var(--primary);
+    border-radius: 10px;
+    padding: 10px 14px;
+    max-width: 100%;
+    word-break: break-all;
+    box-sizing: border-box;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 40px;
+    transition: all 0.2s ease;
+}
+
+.currency-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(109, 190, 69, 0.2);
+}
+
+.loading-state {
+    margin-top: 14px;
+    padding: 18px;
+    background-color: var(--dark-2);
+    border-radius: 12px;
+    border-left: 3px solid var(--primary);
+    text-align: center;
+}
+
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid #3a3a3a;
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    margin: 0 auto 8px;
+    animation: spin 0.8s linear infinite;
+}
+
+.loading-text {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.error-state {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background-color: #3a1a1a;
+    color: #ff8888;
+    border-radius: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.result-card {
+    margin-top: 14px;
+    padding: 18px;
+    background-color: var(--dark-2);
+    border-radius: 12px;
+    border-left: 3px solid var(--primary);
+}
+
+.converted-amount {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-light);
+    margin: 0 0 6px 0;
+}
+
+.exchange-rate {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .currency-converter {
+        padding: 20px;
+    }
+
+    .currency-select {
+        font-size: 13px;
+        padding: 10px 36px 10px 10px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .result-card {
+        padding: 14px;
+    }
+
+    .converted-amount {
+        font-size: 22px;
+    }
+
+    .exchange-rate {
+        font-size: 11px;
+    }
+
+    .loading-state {
+        padding: 14px;
+    }
+}
