@@ -3,7 +3,7 @@
 A React + Vite expense tracker with live INR currency conversion via Frankfurter.app API. Features category-wise spending breakdown, real-time totals, and smooth animations. Built with plain CSS, React Hooks only, and fully responsive for mobile and desktop.
 
 ## 🚀 Live Demo
-[View Live](https://your-vercel-link.com)
+[View Live](https://expence-tracker-seven-sooty.vercel.app)
 
 ## 🛠️ Tech Stack
 - React 18 + Vite
